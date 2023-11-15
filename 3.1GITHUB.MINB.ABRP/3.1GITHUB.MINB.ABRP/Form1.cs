@@ -10,6 +10,7 @@ namespace _3._1GITHUB.MINB.ABRP_
         private void button1_Click(object sender, EventArgs e)
         {
             //Se ha copiado codigo MINB2324
+            //Se ha puesto los botones radio MINB2324
             {
                 string textoTelegrama;
                 char tipoTelegrama = ' ';
