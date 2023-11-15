@@ -10,9 +10,10 @@ namespace _3._1GITHUB.MINB.ABRP_
         private void button1_Click(object sender, EventArgs e)
         {
             //Se ha copiado codigo MINB2324
-            {
+              //Se ha clonado el archivo común ABRP2324.
+            {   
                 string textoTelegrama;
-                char tipoTelegrama = ' ';
+                char tipoTelegrama = 'o';
                 int numPalabras = 0;
                 double coste;
                 //Leo el telegrama
@@ -25,9 +26,9 @@ namespace _3._1GITHUB.MINB.ABRP_
                 //Si el telegrama es ordinario
                 if (tipoTelegrama == 'o')
                     if (numPalabras <= 10)
-                        coste = 25;
+                        coste = 2.5;
                     else
-                        coste = 0.5 * numPalabras;
+                        coste = 2.5 + 0.5 * (numPalabras -10);
                 else
                 //Si el telegrama es urgente
                 if (tipoTelegrama == 'u')
